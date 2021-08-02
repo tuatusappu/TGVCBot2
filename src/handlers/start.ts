@@ -2,7 +2,7 @@ import { Composer, Markup } from 'telegraf';
 
 export const Start = Composer.command('start', async (ctx) => {
     let text =
-        `Hi <a href="tg://user?id=${ctx.from.id}"</a>\n` +
+        `Hi <a href="tg://user?id=${ctx.from.id}"></a>\n` +
         `I Play Songs in Group Voice Chats.\n` +
         `If you like this bot consider adding a star to the <a href="https://github.com/ArnabXD/TGVCBot">repository</a>`
     await ctx.replyWithHTML(text, {
