@@ -9,6 +9,6 @@ export const Start = Composer.command('start', async (ctx) => {
         ...Markup.inlineKeyboard([
             [Markup.button.url('𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗚𝗥𝗢𝗨𝗣', 'https://t.me/LOVELYAPPEAL')]
         ]),
-        disable_web_page_preview: false
+        disable_web_page_preview: true
     })
 })
