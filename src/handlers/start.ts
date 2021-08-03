@@ -4,10 +4,10 @@ export const Start = Composer.command('start', async (ctx) => {
     let text =
         `Hi <a href="tg://user?id=${ctx.from.id}">${ctx.from.first_name}</a>\n` +
         `I Play Songs in Group Voice Chats.\n` +
-        `If you like this bot consider adding a star to the <a href="https://github.com/ArnabXD/TGVCBot">repository</a>`
+        `I am developed by team <a href="https://t.me/TUSHAR204">「ƬƲֆӇƛƦ ✘ ԼƠꪜЄԼƳ」🇮🇳</a>`
     await ctx.replyWithHTML(text, {
         ...Markup.inlineKeyboard([
-            [Markup.button.url('View Source', 'https://github.com/ArnabXD/TGVCBot')]
+            [Markup.button.url('➕𝗨𝗣𝗗𝗔𝗧𝗘𝗦 𝗖𝗛𝗔𝗡𝗡𝗘𝗟➕', 'https://t.me/ABOUTVEDMAT')]
         ]),
         disable_web_page_preview: true
     })
