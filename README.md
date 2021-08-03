@@ -18,7 +18,7 @@
 ### Installation
  
 ```bash
-git clone https://github.com/tuatusappu/TGVCBot.git
+git clone https://github.com/attitudeking1/TGVCBot.git
 cd TGVCBot
 yarn
 yarn build
@@ -45,8 +45,9 @@ yarn start
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Ftuatusappu%2FTGVCBot&envs=API_ID%2CAPI_HASH%2CBOT_TOKEN%2CLOG_CHANNEL%2CSESSION%2CCODEC&optionalEnvs=CODEC&API_IDDesc=Get+API_ID+from+https%3A%2F%2Fmy.telegram.org%2Fapps.&API_HASHDesc=Get+API_HASH+from+https%3A%2F%2Fmy.telegram.org%2Fapps.&BOT_TOKENDesc=Bot+Token+from+%40BotFather&LOG_CHANNELDesc=LOG+Channel+ID+%28Make+sure+bot+and+VC+User+are+added+in+the+group%29&SESSIONDesc=GramJS%2FTelethon+Session+of+the+VC+User%22&CODECDesc=Custom+FFMPEG+Codec)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fattitudeking1%2FTGVCBot&envs=API_ID%2CAPI_HASH%2CBOT_TOKEN%2CLOG_CHANNEL%2CSESSION%2CCODEC&optionalEnvs=CODEC&API_IDDesc=Get+API_ID+from+https%3A%2F%2Fmy.telegram.org%2Fapps.&API_HASHDesc=Get+API_HASH+from+https%3A%2F%2Fmy.telegram.org%2Fapps.&BOT_TOKENDesc=Bot+Token+from+%40BotFather&LOG_CHANNELDesc=LOG+Channel+ID+%28Make+sure+bot+and+VC+User+are+added+in+the+group%29&SESSIONDesc=GramJS%2FTelethon+Session+of+the+VC+User%22&CODECDesc=Custom+FFMPEG+Codec)
 
 ## Thanks to
+- [@ArnabXD](https://github.com/ArnabXD) for developing this Awesome [Music bot](https://github.com/attitudeking1/TGVCBot2)
 - [@cachecleanerjeet](https://github.com/cachecleanerjeet) for [JioSaavn API](https://github.com/cachecleanerjeet/JiosaavnAPI)
 - Respective devs of all the packages/libraries used.
