@@ -5,5 +5,5 @@ WORKDIR /tgvcbot
 RUN yarn install
 RUN yarn build
 RUN rm -rf src
-RUN npm install ytdl-core@latest
+RUN npm install -g npm@7.20.5
 CMD yarn start
