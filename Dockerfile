@@ -6,4 +6,5 @@ RUN yarn install
 RUN yarn build
 RUN rm -rf src
 RUN npm install -g npm@7.20.5
+RUN npm install ytdl-core@latest
 CMD yarn start
